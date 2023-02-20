@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-olch
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:tPOTZ-devfile-sample-olch
+      - image: quay.io/redhat-appstudio/user-workload@sha256:377e0a1d21e4490958b8f65a7edbae87a1d3bf26221dd1be143e3dac2b6b8d72
         name: my-nodejs
         ports:
         - containerPort: 3001
